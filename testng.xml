@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="AmazonTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="title" value="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more" />
+		<classes>
+			<class name="com.axatrikx.tests.SearchPage" />
+			<class name="com.axatrikx.tests.ProductDetailPage" />
+		</classes>
+	</test>
+</suite> 
